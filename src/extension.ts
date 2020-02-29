@@ -9,6 +9,7 @@ export function activate(context: vscode.ExtensionContext) {
 	const cfg = {
 		"breadcrumbs.enabled": true,
 		"css.validate": true,
+
 		"editor.fontFamily": "Audiowide, Hasklig, Overpass Mono, monospace",
 		"editor.fontLigatures": true,
 		"editor.formatOnSave": true,
@@ -20,6 +21,13 @@ export function activate(context: vscode.ExtensionContext) {
 			100
 		],
 		"editor.tabSize": 4,
+		"files.trimFinalNewlines": true,
+		"gitlens.currentLine.enabled": false,
+		"git.allowForcePush": true,
+		"git.confirmForcePush": true,
+		"telemetry.enableTelemetry": false,
+		"terminal.integrated.scrollback": 50000,
+		"workbench.settings.enableNaturalLanguageSearch": false,
 	};
 
 	for (const [key, value] of Object.entries(cfg)) {
