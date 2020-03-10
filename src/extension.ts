@@ -21,13 +21,14 @@ export function activate(context: vscode.ExtensionContext) {
 			100
 		],
 		"editor.tabSize": 4,
+		"editor.folding": false,
 		"files.trimFinalNewlines": true,
 		"gitlens.currentLine.enabled": false,
 		"git.allowForcePush": true,
 		"git.confirmForcePush": true,
 		"telemetry.enableTelemetry": false,
 		"terminal.integrated.scrollback": 50000,
-		"workbench.settings.enableNaturalLanguageSearch": false,
+		"workbench.settings.enableNaturalLanguageSearch": false
 	};
 
 	for (const [key, value] of Object.entries(cfg)) {
