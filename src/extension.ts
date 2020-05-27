@@ -28,7 +28,8 @@ export function activate(context: vscode.ExtensionContext) {
 		"git.confirmForcePush": true,
 		"telemetry.enableTelemetry": false,
 		"terminal.integrated.scrollback": 50000,
-		"workbench.settings.enableNaturalLanguageSearch": false
+		"workbench.settings.enableNaturalLanguageSearch": false,
+		"workbench.startupEditor": "readme"
 	};
 
 	for (const [key, value] of Object.entries(cfg)) {

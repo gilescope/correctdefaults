@@ -12,6 +12,10 @@ May be opinionated.
 
 ## Release Notes
 
+### 0.0.5
+
+VS code should display readme on startup
+
 ### 0.0.1
 
 Initial release of settings.
