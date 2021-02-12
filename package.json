@@ -2,7 +2,7 @@
 	"name": "correctdefaults",
 	"displayName": "Correct.Defaults",
 	"description": "Sets settings to the correct default values for my definition of correct. Designed to be used with rustpunk.",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"publisher": "gilescope",
 	"engines": {
 		"vscode": "^1.41.0"

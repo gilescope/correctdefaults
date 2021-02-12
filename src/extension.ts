@@ -13,6 +13,7 @@ export function activate(context: vscode.ExtensionContext) {
 		"editor.fontFamily": "Audiowide, Hasklig, Overpass Mono, monospace",
 		"editor.fontLigatures": true,
 		"editor.formatOnSave": true,
+		"editor.formatOnSaveMode": "modifications",
 		"editor.lineNumbers": "off",
 		"editor.matchBrackets": "never",
 		"editor.minimap.enabled": false,
@@ -29,7 +30,8 @@ export function activate(context: vscode.ExtensionContext) {
 		"telemetry.enableTelemetry": false,
 		"terminal.integrated.scrollback": 50000,
 		"workbench.settings.enableNaturalLanguageSearch": false,
-		"workbench.startupEditor": "readme"
+		"workbench.startupEditor": "readme",
+		"subtleBrackets.pairs": [{ "open": "(", "close": ")" }, { "open": "[", "close": "]" }, { "open": "{", "close": "}" }, { "open": "<", "close": ">" }],
 	};
 
 	for (const [key, value] of Object.entries(cfg)) {
