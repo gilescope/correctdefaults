@@ -32,6 +32,7 @@ export function activate(context: vscode.ExtensionContext) {
 		"workbench.settings.enableNaturalLanguageSearch": false,
 		"workbench.startupEditor": "readme",
 		"subtleBrackets.pairs": [{ "open": "(", "close": ")" }, { "open": "[", "close": "]" }, { "open": "{", "close": "}" }, { "open": "<", "close": ">" }],
+		"cSpell.allowCompoundWords": true,
 	};
 
 	for (const [key, value] of Object.entries(cfg)) {
