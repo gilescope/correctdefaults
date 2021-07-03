@@ -14,7 +14,7 @@ export function activate(context: vscode.ExtensionContext) {
 		"editor.fontLigatures": true,
 		"editor.formatOnSave": true,
 		"editor.formatOnSaveMode": "modifications",
-		"editor.lineNumbers": "off",
+		"editor.lineNumbers": "on",
 		"editor.matchBrackets": "never",
 		"editor.minimap.enabled": false,
 		"editor.renderIndentGuides": false,
