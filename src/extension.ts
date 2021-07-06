@@ -33,6 +33,7 @@ export function activate(context: vscode.ExtensionContext) {
 		"workbench.startupEditor": "readme",
 		"subtleBrackets.pairs": [{ "open": "(", "close": ")" }, { "open": "[", "close": "]" }, { "open": "{", "close": "}" }, { "open": "<", "close": ">" }],
 		"cSpell.allowCompoundWords": true,
+    		"diffEditor.wordWrap": "off"
 	};
 
 	for (const [key, value] of Object.entries(cfg)) {
